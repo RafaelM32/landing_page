@@ -27,7 +27,7 @@ function changeActiveMenu(length){
     if(length< sections[0].offsetHeight){
         removeActive()
         navLi[0].classList.add('active')
-    }else if(length < sections[0].offsetHeight + sections[1].offsetHeight){
+    }else if(length < sections[0].offsetHeight + sections[1].offsetHeight - 100){
         removeActive()
         navLi[1].classList.add('active')
     }else{
